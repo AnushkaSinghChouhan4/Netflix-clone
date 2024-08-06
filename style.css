@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background:  linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('./IN-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_3457a8b1-284d-4bb5-979e-2a2e9bb342b3_small.jpg');
+    /* background-image: url('./IN-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_3457a8b1-284d-4bb5-979e-2a2e9bb342b3_small.jpg'); */
+
+
+    background-position: center;
+    background-size: cover;
+    border-bottom: 10px solid grey;
+
+}
+
+.header{
+    width: 100%;
+    height: 15%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 100px;
+}
+
+.header span button{
+    width: 70px;
+    height: 25px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#eng-btn{
+    width: 100px;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid whitesmoke;
+}
+#responsive-btn{
+    width: 40px;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid whitesmoke;
+    display: none;
+  
+}
+
+.hero-section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.hero-section p{
+    font-size: 20px;
+    margin: 10px;
+}
+.hero-section h1{
+    font-size: 40px;
+}
+.hero-section button{
+    width: 15%;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+#pg{
+    font-size: 20px;
+}
+
+.hero-section span input{
+    width: 280px;
+    height: 7vh;
+    color: rgb(26, 15, 15);
+    background-color: rgb(54, 46, 46);
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+::placeholder{
+    color: rgb(110, 124, 124);
+    font-size: 15px;
+}
+
+.hero-section span button{
+    color: white;
+    background-color: red;
+    width: 150px;
+    height: 7vh;
+    font-size: large;
+    border-radius: 6px;
+}
+
+
+
+.tv-section1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: black;
+    border-bottom: 10px solid rgb(46, 46, 46);
+}
+.text-part1{
+    width: 50%;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-part1{
+    width: 49%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.video-part1 video{
+    width: 60%;
+}
+
+
+.text h1{
+    font-size: 32px;
+    margin-left: 50px;
+}
+.text h6{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.tv-section2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    color: white;
+    background-color: black;
+    border-bottom: 10px solid rgb(86, 80, 80);
+}
+
+.text-part2{
+    width: 50%;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-part2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.video-part2 video{
+    width: 90%;
+}
+
+.text h1{
+    font-size: 55px;
+    margin-left: 40px;
+}
+
+.text p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.tv-section3{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    color: white;
+    background-color: black;
+    border-bottom: 10px solid rgb(86, 80, 80);
+
+}
+
+.text-part3{
+    width: 50%;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-part3{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.video-part3 video{
+    width: 90%;
+}
+
+.text h1{
+    font-size: 55px;
+    margin-left: 40px;
+}
+
+.text p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.tv-section4{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    color: white;
+    background-color: black;
+    border-bottom: 10px solid rgb(86, 80, 80);
+
+}
+
+.text-part4{
+    width: 50%;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-part4{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.video-part4 video{
+    width: 90%;
+}
+
+.text h1{
+    font-size: 55px;
+    margin-left: 40px;
+}
+
+.text p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+
+.hero-section2 button{
+    width: 15%;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+#pg2{
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    margin-block: 15px;
+}
+
+.hero-section2 span input{
+    width: 280px;
+    height: 7vh;
+    color: rgb(26, 15, 15);
+    background-color: rgb(54, 46, 46);
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding-inline: 15px;
+    border: none;
+}
+
+::placeholder{
+    color: rgb(110, 124, 124);
+    font-size: 15px;
+}
+
+.hero-section2 span button{
+    color: white;
+    background-color: red;
+    width: 150px;
+    height: 7vh;
+    font-size: large;
+    border-radius: 6px;
+}
+
+.faq-section{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-block: 50px;
+    border-bottom: 10px solid rgb(48, 48, 48);
+   }
+  
+  
+   .faq-section h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+   }
+  
+  
+   .faq-part{
+    width: 100%;
+    height: auto;
+    padding-block: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+  
+   }
+  
+   .faq-box{
+    width: 80%;
+    height: 80px;
+    background-color: rgb(75, 75, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+   }
+   .faq-box span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-inline: 30px;
+    font-size: 30px;
+   }
+   .faq-box:hover{
+    background-color: gray;
+   }
+  
+  
+  
+   .footer-part{
+    width: 100%;
+    height: auto;
+    padding-block: 40px;
+    background-color: black;
+  
+   }
+  
+  
+   .footer-part a{
+    color: white;
+    padding-left: 50px;
+   }
+  
+   .list-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    padding-block: 30px;
+  
+    
+   }
+  
+  
+   .list-part ul{
+    width: 35%;
+   }
+  
+   .list-part ul li{
+    line-height: 40px;
+   }
+
+
+   .button-2 span button{
+    width: 70px;
+    height: 25px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+   #eng-btn2{
+    width: 100px;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid whitesmoke;
+    margin-left: 15px;
+    }
+   #responsive-btn2{
+    width: 40px;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid whitesmoke;
+    display: none;
+   }
+
+   .button-2 h6{
+    color: white;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
+   }
+
+   .video-part2{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+   }
+  
+   .video-part2 video{
+    width: 90%;
+   }
+
+   .video-part3{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  
+   .video-part3 video{
+    width: 90%;
+    height: 100%;
+   }
+
+   .video-part4{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  
+   .video-part4 img{
+    width: 90%;
+    height: 100%;
+   }
+
+
+
+
+
+
+
+
+/* responsive css code */
+
+@media (max-width:768px){ 
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .header{
+        width: 100%;
+        height: 15%;
+        padding-inline: 10px;
+
+    }
+
+    .hero-section{
+        width: 100%;
+        height: 400px;
+
+    }
+
+    .hero-section h1{
+        text-align: center;
+    }
+
+    .hero-section p{
+        text-align: center;
+    }
+    .hero-section button{
+        width: 20%;
+        padding-inline: 20px;
+      
+    }
+
+    #responsive-btn{
+        display: inline;
+    }
+    
+    #eng-btn{
+        display: none;
+    }
+
+    .tv-section1{
+        width: 100%;
+        height: auto;
+        padding-block: 40px;
+        flex-direction: column;
+    }
+
+
+    .text-part1{
+        width: 100%;
+        height: auto;
+        padding-block: 30px;
+      
+    }
+
+    .video-part1{
+        width: 100%;
+        height: auto;
+        padding-block: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-inline: 20px;
+    }
+
+    .text1 h6{
+        text-align: center;
+    }
+    .text1 h6 br{
+        display: none;
+    }
+
+    .tv-section2{
+        width: 100%;
+        height: auto;
+        padding-block: 40px;
+        flex-direction: column;
+    }
+
+    .text-part2{
+        width: 100%;
+        height: auto;
+        padding-block: 30px;
+    }
+
+    .video-part2{
+        width: 100%;
+        height: auto;
+        padding-block: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-inline: 20px;
+    }
+
+    .text h6{
+        text-align: center;
+    }
+
+    .text h6 br{
+        display: none;
+    }
+
+        
+
+    .footer-part{
+        width: 100%;
+        height: auto;
+      }
+      .list-part{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+      }
+    }
